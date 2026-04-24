@@ -29,7 +29,7 @@ This page serves as a central entry point to services, documentation, and resour
 
 ## Harmonisation and standardisation of Peronal Exposure and Health data {#catalogue}
 
-**Data Catalogue**
+Information on the **Data Catalogue** is under construction.
 
 
 ## GDPR proof exchange of single measurement data {#exchange}
@@ -39,7 +39,7 @@ Interact with [**https://peh.vito.be/**](https://peh.vito.be/):
 - to provide individual level data
 - to get access to individual level data
 
-For detailed user guidance, visit: [**https://vito-epi.github.io/peh_userdocumentation/**](https://vito-epi.github.io/peh_userdocumentation/)
+For information on available data and detailed user guidance, visit: [**https://vito-epi.github.io/peh_userdocumentation/**](https://vito-epi.github.io/peh_userdocumentation/)
 
 ---
 ## Harmonised summary statistics of EU datasets  {#dashboard}
@@ -47,6 +47,7 @@ For detailed user guidance, visit: [**https://vito-epi.github.io/peh_userdocumen
 Interact with [**European Human Biomonitoring Dashboard**](https://hbm.vito.be/eu-hbm-dashboard):
 
 - to browse and analyse summary statistics from Personal Exposure and Health Data
+- to integrate data in the Dashboard, contact [PEHDataPlatform@vito.be](mailto:PEHDataPlatform@vito.be)
 
 
 ## Funding
