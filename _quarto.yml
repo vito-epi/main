@@ -13,5 +13,8 @@ website:
         text: Data exchange
       - href: "#dashboard"
         text: EU HBM Dashboard
-
+format:
+  html:
+    link-external-newwindow: true
+    link-external-icon: false
 

@@ -60,6 +60,5 @@ The PEH Data Platform is developed at **VITO** in the context of environmental e
 
 ## For questions or collaboration:  
 
-Contact the PEH Data Platform managers
-For questions: [PEHDataPlatform@vito.be](mailto:PEHDataPlatform@vito.be)
+Contact the PEH Data Platform managers [PEHDataPlatform@vito.be](mailto:PEHDataPlatform@vito.be)
 
