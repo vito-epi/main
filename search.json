@@ -4,21 +4,21 @@
     "href": "index.html",
     "title": "Personal Exposure and Health Data Platform",
     "section": "",
-    "text": "The Personal Exposure and Health (PEH) Data Platform is a secure infrastructure developed and managed by VITO to facilitate the collection, harmonized storage, and controlled access of pseudonymised or anonymised single measurement data from population studies. The platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access approved subsets of PEH data for re-use, in accordance with the terms and conditions of this Protocol and all applicable legal and ethical requirements. The PEH Data Platform supports transparent data governance, ensures data protection and traceability, and provides operational services for data harmonisation, data processing, quality control, and access management.\nIn addition to the exchange of single measurement data the PEH Data Platform offers additional functionalities:\n\ndevelopment and maintenance of FAIR data components\ncollection and publication of metadata\ncalculation and publication of summary statistics\n\nThis website serves as a central entry point to services, documentation, and resources."
+    "text": "The Personal Exposure and Health (PEH) Data Platform is a secure infrastructure developed and managed by VITO to facilitate the collection, harmonized storage, and controlled access of pseudonymised or anonymised single measurement data from population studies.\nThe platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access approved subsets of PEH data for re-use.\nThe PEH Data Platform supports transparent data governance, ensures data protection and traceability, and provides operational services for data harmonisation, data processing, quality control, and access management.\nIn addition to the exchange of single measurement data the PEH Data Platform offers additional functionalities:\n\ndevelopment and maintenance of FAIR data components\ncollection and publication of metadata\ncalculation and publication of summary statistics\n\nThis website serves as a central entry point to services, documentation, and resources."
   },
   {
     "objectID": "index.html#harmonisation-and-standardisation-of-peronal-exposure-and-health-data",
     "href": "index.html#harmonisation-and-standardisation-of-peronal-exposure-and-health-data",
     "title": "Personal Exposure and Health Data Platform",
     "section": "Harmonisation and standardisation of Peronal Exposure and Health data",
-    "text": "Harmonisation and standardisation of Peronal Exposure and Health data\n\nData Catalogue"
+    "text": "Harmonisation and standardisation of Peronal Exposure and Health data\nData Catalogue"
   },
   {
     "objectID": "index.html#gdpr-proof-exchange-of-single-measurement-data",
     "href": "index.html#gdpr-proof-exchange-of-single-measurement-data",
     "title": "Personal Exposure and Health Data Platform",
     "section": "GDPR proof exchange of single measurement data",
-    "text": "GDPR proof exchange of single measurement data\nhttps://peh.vito.be/\nGet an overview of available data and user guidance to interact with https://peh.vito.be/:\n\nto provide individual level data\nto get access to individual level data\n\nVisit: https://vito-epi.github.io/peh_userdocumentation/\n\n\nStandardised reporting of harmonised summary statistics of EU datasets\nEuropean Human Biomonitoring Dashboard\nExplore summary statistics from the Personal Exposure and Health Data Platform"
+    "text": "GDPR proof exchange of single measurement data\nInteract with https://peh.vito.be/:\n\nto provide individual level data\nto get access to individual level data\n\nFor detailed user guidance, visit: https://vito-epi.github.io/peh_userdocumentation/\n\n\nHarmonised summary statistics of EU datasets\nInteract with European Human Biomonitoring Dashboard:\n\nto browse and analyse summary statistics from Personal Exposure and Health Data"
   },
   {
     "objectID": "index.html#funding",
