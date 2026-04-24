@@ -1,6 +1,0 @@
-/.quarto/
-**/*.quarto_ipynb
-
-# Quarto build output
-/_site/
-/.quarto/
