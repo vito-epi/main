@@ -1,5 +1,5 @@
 ---
-title: "Personal Exposure and Health Data Platform"
+title: "Central Entry Point"
 ---
 
 # About
