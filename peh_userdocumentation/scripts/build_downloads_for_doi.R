@@ -14,7 +14,7 @@ build_downloads_for_doi <- function(
   } else {
     Sys.unsetenv("ZENODO_RDS_KEY")
   }
-  
+   
   # Run in its own env but with access to attached packages
   run_env <- new.env(parent = globalenv())
   source(out_script, local = run_env)

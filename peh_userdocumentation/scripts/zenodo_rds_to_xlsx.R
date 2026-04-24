@@ -47,7 +47,7 @@ get_json <- function(url, query = NULL) {
   )
   httr::stop_for_status(resp)
   jsonlite::fromJSON(httr::content(resp, as = "text", encoding = "UTF-8"), simplifyVector = FALSE)
-}
+} 
 
 # --- Robust DOI -> Zenodo record resolver ---
 query1 <- sprintf('pids.doi.identifier:"%s"', doi)

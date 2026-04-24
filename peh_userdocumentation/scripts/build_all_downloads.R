@@ -3,7 +3,7 @@
 
 suppressPackageStartupMessages({
   library(yaml)
-})
+}) 
 
 source("scripts/build_downloads_for_doi.R")
 
