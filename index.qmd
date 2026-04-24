@@ -39,7 +39,9 @@ Interact with [**https://peh.vito.be/**](https://peh.vito.be/):
 - to provide individual level data
 - to get access to individual level data
 
-For information on available data and detailed user guidance, visit: [**https://vito-epi.github.io/peh_userdocumentation/**](https://vito-epi.github.io/peh_userdocumentation/)
+For information on available data and detailed user guidance, visit:
+
+[**https://vito-epi.github.io/peh_userdocumentation/**](https://vito-epi.github.io/peh_userdocumentation/)
 
 ---
 ## Harmonised summary statistics of EU datasets  {#dashboard}
