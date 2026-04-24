@@ -43,7 +43,6 @@ Visit: [https://vito-epi.github.io/peh_userdocumentation/](https://vito-epi.gith
 
 Explore summary statistics from the Personal Exposure and Health Data Platform
 
----
 
 ## Funding
 
