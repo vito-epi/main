@@ -6,7 +6,7 @@ suppressPackageStartupMessages({
 })
 
 # 1) Load the wrapper from step 2
-source("scripts/build_downloads_for_doi.R")
+source("peh_userdocumentation/scripts/build_downloads_for_doi.R")
 
 # 2) Read config
 cfg <- yaml::read_yaml("config/dois.yml")
@@ -16,7 +16,7 @@ if (is.null(cfg$dois) || length(cfg$dois) == 0) {
 }
 
 # 3) Ensure downloads folder exists (engine will create subfolders)
-dir.create("downloads", showWarnings = FALSE, recursive = TRUE)
+dir.create("peh_userdocumentation/downloads", showWarnings = FALSE, recursive = TRUE)
 
 # Helper: make DOI folder name the same way as in your engine (safe_name-ish)
 safe_doi_folder <- function(doi) {

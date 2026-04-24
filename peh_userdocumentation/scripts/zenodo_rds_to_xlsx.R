@@ -10,7 +10,7 @@ suppressPackageStartupMessages({
 doi <- Sys.getenv("ZENODO_DOI", "10.5281/zenodo.19682162")
 rds_key_preferred <- Sys.getenv("ZENODO_RDS_KEY", "")   # optional exact filename in Zenodo record
 zenodo_token <- Sys.getenv("ZENODO_API_KEY", "")        # optional for higher rate limits
-ua <- "PEH-DocSite/1.0 (https://vito-epi.github.io/peh_userdocumentation/)"
+ua <- "PEH-DocSite/1.0 (https://vito-epi.github.io/main/)"
 
 `%||%` <- function(a, b) if (!is.null(a)) a else b
 
@@ -116,7 +116,7 @@ obj <- readRDS(tmp)
 if (!is.list(obj)) stop("Top-level object in RDS is not a list; cannot apply requested folder structure.")
 
 # ---- Output folder ----
-doi_dir <- file.path("downloads", safe_name(doi, 120))
+doi_dir <- file.path("peh_userdocumentation/downloads", safe_name(doi, 120))
 ensure_dir(doi_dir)
 
 

@@ -3,7 +3,7 @@
 
 build_downloads_for_doi <- function(doi,
                                     rds_key = "",
-                                    out_script = "scripts/zenodo_rds_to_xlsx.R") {
+                                    out_script = "peh_userdocumentation/scripts/zenodo_rds_to_xlsx.R") {
   
   if (is.null(doi) || !nzchar(doi)) stop("Missing DOI")
   
