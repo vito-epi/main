@@ -6,7 +6,7 @@ The Personal Exposure and Health (PEH) Data Platform is a secure infrastructure
 developed and managed by VITO to facilitate the collection, harmonized storage, and controlled access of 
 pseudonymised or anonymised single measurement data from population studies. 
 
-The platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access 
+The platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access  
 approved subsets of PEH data for re-use.
 
 The PEH Data Platform supports transparent data governance, ensures data protection and traceability, and provides operational services for data harmonisation, data 
