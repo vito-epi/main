@@ -23,10 +23,21 @@ jobs:
       - name: Install R packages needed for site
         run: |
           install.packages(
-            c("httr", "jsonlite", "openxlsx", "yaml", "readxl","dplyr","knitr","rmarkdown"),
+            c(
+              "httr",
+              "jsonlite",
+              "openxlsx",
+              "yaml",
+              "readxl",
+              "dplyr",
+              "knitr",
+              "rmarkdown",
+              "markdown"
+            ),
             repos = "https://cloud.r-project.org"
           )
         shell: Rscript {0}
+
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -41,3 +52,10 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: _site
+
+
+          
+      - name: Build Excel downloads from Zenodo
+        run: |
+          Rscript peh_userdocumentation/scripts/build_all_downloads.R
+
