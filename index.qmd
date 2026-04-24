@@ -21,28 +21,28 @@ In addition to the exchange of single measurement data the PEH Data Platform off
 - calculation and publication of summary statistics
 
 
-This website serves as a central entry point to services, documentation, and resources.
+This page serves as a central entry point to services, documentation, and resources.
 
 ---
 
 # FAIR Managament of Personal Exposure and Health Data
 
-## Harmonisation and standardisation of Peronal Exposure and Health data
+## Harmonisation and standardisation of Peronal Exposure and Health data {#catalogue}
 
 **Data Catalogue**
 
 
-## GDPR proof exchange of single measurement data
+## GDPR proof exchange of single measurement data {#exchange}
 
 Interact with [**https://peh.vito.be/**](https://peh.vito.be/):
 
 - to provide individual level data
 - to get access to individual level data
 
-For detailed user guidance, visit: [https://vito-epi.github.io/peh_userdocumentation/](https://vito-epi.github.io/peh_userdocumentation/)
+For detailed user guidance, visit: [**https://vito-epi.github.io/peh_userdocumentation/**](https://vito-epi.github.io/peh_userdocumentation/)
 
 ---
-### Harmonised summary statistics of EU datasets 
+## Harmonised summary statistics of EU datasets  {#dashboard}
 
 Interact with [**European Human Biomonitoring Dashboard**](https://hbm.vito.be/eu-hbm-dashboard):
 
