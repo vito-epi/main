@@ -42,7 +42,10 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-
+      - name: Build Excel downloads from Zenodo
+        run: |
+          Rscript peh_userdocumentation/scripts/build_all_downloads.R
+          
       - name: Render Quarto site
         run: |
           quarto render
@@ -55,7 +58,5 @@ jobs:
 
 
           
-      - name: Build Excel downloads from Zenodo
-        run: |
-          Rscript peh_userdocumentation/scripts/build_all_downloads.R
+
 
