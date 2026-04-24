@@ -23,7 +23,7 @@ jobs:
       - name: Install R packages needed for site
         run: |
           install.packages(
-            c("httr", "jsonlite", "openxlsx", "yaml"),
+            c("httr", "jsonlite", "openxlsx", "yaml", "readxl","dplyr","knitr","rmarkdown"),
             repos = "https://cloud.r-project.org"
           )
         shell: Rscript {0}
