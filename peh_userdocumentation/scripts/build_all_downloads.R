@@ -5,18 +5,14 @@ suppressPackageStartupMessages({
   library(yaml)
 })
 
-# 1) Load the wrapper from step 2
-source("peh_userdocumentation/scripts/build_downloads_for_doi.R")
+source("scripts/build_downloads_for_doi.R")
 
-# 2) Read config
 cfg <- yaml::read_yaml("config/dois.yml")
-
 if (is.null(cfg$dois) || length(cfg$dois) == 0) {
   stop("No DOIs found in config/dois.yml. Expected:\n\ndois:\n  - doi: 10.5281/zenodo.xxxxx\n")
 }
 
-# 3) Ensure downloads folder exists (engine will create subfolders)
-dir.create("peh_userdocumentation/downloads", showWarnings = FALSE, recursive = TRUE)
+dir.create("downloads", showWarnings = FALSE, recursive = TRUE)
 
 # Helper: make DOI folder name the same way as in your engine (safe_name-ish)
 safe_doi_folder <- function(doi) {

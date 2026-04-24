@@ -116,7 +116,7 @@ obj <- readRDS(tmp)
 if (!is.list(obj)) stop("Top-level object in RDS is not a list; cannot apply requested folder structure.")
 
 # ---- Output folder ----
-doi_dir <- file.path("peh_userdocumentation/downloads", safe_name(doi, 120))
+doi_dir <- file.path("downloads", safe_name(doi, 120))
 ensure_dir(doi_dir)
 
 

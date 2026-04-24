@@ -61,11 +61,12 @@ jobs:
 
       # ✅ Build derived artefacts FIRST
       - name: Build Excel downloads from Zenodo
+        working-directory: peh_userdocumentation
         env:
           ZENODO_API_KEY: ${{ secrets.ZENODO_API_KEY }}
         run: |
-          cd peh_userdocumentation
           Rscript scripts/build_all_downloads.R
+
 
 
 

@@ -1,10 +1,10 @@
-# scripts/build_downloads_for_doi.R
-# Wrapper around the existing working zenodo_rds_to_xlsx.R script
+# peh_userdocumentation/scripts/build_downloads_for_doi.R
 
-build_downloads_for_doi <- function(doi,
-                                    rds_key = "",
-                                    out_script = "peh_userdocumentation/scripts/zenodo_rds_to_xlsx.R") {
-  
+build_downloads_for_doi <- function(
+    doi,
+    rds_key = "",
+    out_script = "scripts/zenodo_rds_to_xlsx.R"
+) {
   if (is.null(doi) || !nzchar(doi)) stop("Missing DOI")
   
   Sys.setenv(ZENODO_DOI = doi)
@@ -15,7 +15,7 @@ build_downloads_for_doi <- function(doi,
     Sys.unsetenv("ZENODO_RDS_KEY")
   }
   
-  # IMPORTANT: parent = globalenv() so attached packages (e.g. httr::GET) resolve correctly
+  # Run in its own env but with access to attached packages
   run_env <- new.env(parent = globalenv())
   source(out_script, local = run_env)
   
