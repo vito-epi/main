@@ -8,7 +8,7 @@ website:
   site-url: https://vito-epi.github.io/main/peh_userdocumentation/
   repo-url: https://github.com/vito-epi/main
   # repo-actions: [edit, issue]
-  page-navigation: false
+  page-navigation: true
 
 
   navbar:
