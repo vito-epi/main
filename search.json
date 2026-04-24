@@ -2,42 +2,35 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "PEH Data Platform",
+    "title": "Personal Exposure and Health Data Platform",
     "section": "",
-    "text": "The Personal Exposure and Health (PEH) Data Platform is a secure infrastructure developed and managed by VITO to facilitate the collection, harmonized storage, and controlled access of pseudonymised or anonymised single measurement data from population studies. The platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access approved subsets of PEH data for re-use, in accordance with the terms and conditions of this Protocol and all applicable legal and ethical requirements. The PEH Data Platform supports transparent data governance, ensures data protection and traceability, and provides operational services for data harmonisation, data processing, quality control, and access management.\nThis website serves as a central entry point to related services, documentation, and resources."
+    "text": "The Personal Exposure and Health (PEH) Data Platform is a secure infrastructure developed and managed by VITO to facilitate the collection, harmonized storage, and controlled access of pseudonymised or anonymised single measurement data from population studies. The platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access approved subsets of PEH data for re-use, in accordance with the terms and conditions of this Protocol and all applicable legal and ethical requirements. The PEH Data Platform supports transparent data governance, ensures data protection and traceability, and provides operational services for data harmonisation, data processing, quality control, and access management.\nIn addition to the exchange of single measurement data the PEH Data Platform offers additional functionalities:\n\ndevelopment and maintenance of FAIR data components\ncollection and publication of metadata\ncalculation and publication of summary statistics\n\nThis website serves as a central entry point to services, documentation, and resources."
   },
   {
     "objectID": "index.html#harmonisation-and-standardisation-of-peronal-exposure-and-health-data",
     "href": "index.html#harmonisation-and-standardisation-of-peronal-exposure-and-health-data",
-    "title": "PEH Data Platform",
+    "title": "Personal Exposure and Health Data Platform",
     "section": "Harmonisation and standardisation of Peronal Exposure and Health data",
     "text": "Harmonisation and standardisation of Peronal Exposure and Health data\n\nData Catalogue"
   },
   {
     "objectID": "index.html#gdpr-proof-exchange-of-single-measurement-data",
     "href": "index.html#gdpr-proof-exchange-of-single-measurement-data",
-    "title": "PEH Data Platform",
+    "title": "Personal Exposure and Health Data Platform",
     "section": "GDPR proof exchange of single measurement data",
-    "text": "GDPR proof exchange of single measurement data\n\nhttps://peh.vito.be/\nGet an overview of available data and user guidance to interact with https://peh.vito.be/: - to provide individual level data - to get access to individual level data Visit: https://vito-epi.github.io/peh_userdocumentation/\n\n\n\nStandardised reporting of harmonised summary statistics of EU datasets"
-  },
-  {
-    "objectID": "index.html#european-human-biomonitoring-dashboard",
-    "href": "index.html#european-human-biomonitoring-dashboard",
-    "title": "PEH Data Platform",
-    "section": "European Human Biomonitoring Dashboard",
-    "text": "European Human Biomonitoring Dashboard\nExplore summary statistics from the Personal Exposure and Health Data Platform"
+    "text": "GDPR proof exchange of single measurement data\nhttps://peh.vito.be/\nGet an overview of available data and user guidance to interact with https://peh.vito.be/:\n\nto provide individual level data\nto get access to individual level data\n\nVisit: https://vito-epi.github.io/peh_userdocumentation/\n\n\nStandardised reporting of harmonised summary statistics of EU datasets\nEuropean Human Biomonitoring Dashboard\nExplore summary statistics from the Personal Exposure and Health Data Platform"
   },
   {
     "objectID": "index.html#funding",
     "href": "index.html#funding",
-    "title": "PEH Data Platform",
+    "title": "Personal Exposure and Health Data Platform",
     "section": "Funding",
-    "text": "Funding\nThe PEH Data Platform is developed at VITO in the context of environmental epidemiology and human biomonitoring research and received funding from: - … - … - …"
+    "text": "Funding\nThe PEH Data Platform is developed at VITO in the context of environmental epidemiology and human biomonitoring research and received funding from:\n\n…\n…\n…"
   },
   {
     "objectID": "index.html#for-questions-or-collaboration",
     "href": "index.html#for-questions-or-collaboration",
-    "title": "PEH Data Platform",
+    "title": "Personal Exposure and Health Data Platform",
     "section": "For questions or collaboration:",
     "text": "For questions or collaboration:\nContact the PEH Data Platform managers For questions: PEHDataPlatform@vito.be"
   }
