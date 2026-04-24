@@ -1,0 +1,58 @@
+project:
+  type: website
+  resources:
+  - downloads/**
+
+website:
+  title: "PEH Data Platform – User Guidance"
+  # site-url: https://vito-epi.github.io/peh_userdocumentation/
+  repo-url: https://github.com/vito-epi/peh_userdocumentation
+  # repo-actions: [edit, issue]
+  page-navigation: false
+
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      #- href: getting-started.qmd
+      #  text: Getting started
+      - href: user-guide/index.qmd
+        text: User guide
+      - href: pehdata_shiny.qmd
+        text: PEH Data Explorer
+    right:
+      - icon: github
+        href: https://github.com/vito-epi/peh_userdocumentation
+
+
+  sidebar:
+    contents:
+      - user-guide/index.qmd
+      - user-guide/protocol.qmd
+      - user-guide/account.qmd
+      - section: "Data Providers"
+        contents:
+          - user-guide/dataproviders/overview.qmd
+          - user-guide/dataproviders/data-requirements.qmd
+      - section: "Data Users"
+        contents:
+          - user-guide/datausers/overview.qmd
+          - user-guide/datausers/data-requests.qmd
+      - section: "Publications"
+        contents:
+          - user-guide/publications/approved.qmd   
+          - user-guide/publications/publications.qmd   
+
+
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    code-copy: true
+    # date-modified: true
+    # include-after-body: _includes/last-updated.qmd
+
