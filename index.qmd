@@ -1,8 +1,6 @@
 ---
-title: "Central Entry Point"
+title: "About"
 ---
-
-# About
 
 The Personal Exposure and Health (PEH) Data Platform is a secure infrastructure 
 developed and managed by VITO to facilitate the collection, harmonized storage, and controlled access of 
