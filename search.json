@@ -2,42 +2,42 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Personal Exposure and Health Data Platform",
+    "title": "Central Entry Point",
     "section": "",
     "text": "The Personal Exposure and Health (PEH) Data Platform is a secure infrastructure developed and managed by VITO to facilitate the collection, harmonized storage, and controlled access of pseudonymised or anonymised single measurement data from population studies.\nThe platform enables Supplying Data Controllers (SDCs) to deposit data, and Receiving Data Controllers (RDCs) to access approved subsets of PEH data for re-use.\nThe PEH Data Platform supports transparent data governance, ensures data protection and traceability, and provides operational services for data harmonisation, data processing, quality control, and access management.\nIn addition to the exchange of single measurement data the PEH Data Platform offers additional functionalities:\n\ndevelopment and maintenance of FAIR data components\ncollection and publication of metadata\ncalculation and publication of summary statistics\n\nThis page serves as a central entry point to services, documentation, and resources."
   },
   {
     "objectID": "index.html#catalogue",
     "href": "index.html#catalogue",
-    "title": "Personal Exposure and Health Data Platform",
+    "title": "Central Entry Point",
     "section": "Harmonisation and standardisation of Peronal Exposure and Health data",
     "text": "Harmonisation and standardisation of Peronal Exposure and Health data\nInformation on the Data Catalogue is under construction."
   },
   {
     "objectID": "index.html#exchange",
     "href": "index.html#exchange",
-    "title": "Personal Exposure and Health Data Platform",
+    "title": "Central Entry Point",
     "section": "GDPR proof exchange of single measurement data",
     "text": "GDPR proof exchange of single measurement data\nInteract with https://peh.vito.be/:\n\nto provide individual level data\nto get access to individual level data\n\nFor information on available data and detailed user guidance, visit:\nhttps://vito-epi.github.io/peh_userdocumentation/"
   },
   {
     "objectID": "index.html#dashboard",
     "href": "index.html#dashboard",
-    "title": "Personal Exposure and Health Data Platform",
+    "title": "Central Entry Point",
     "section": "Harmonised summary statistics of EU datasets",
     "text": "Harmonised summary statistics of EU datasets\nInteract with European Human Biomonitoring Dashboard:\n\nto browse and analyse summary statistics from Personal Exposure and Health Data\nto integrate data in the Dashboard, contact PEHDataPlatform@vito.be"
   },
   {
     "objectID": "index.html#funding",
     "href": "index.html#funding",
-    "title": "Personal Exposure and Health Data Platform",
+    "title": "Central Entry Point",
     "section": "Funding",
     "text": "Funding\nThe PEH Data Platform is developed at VITO in the context of environmental epidemiology and human biomonitoring research and received funding from:\n\n…\n…\n…"
   },
   {
     "objectID": "index.html#for-questions-or-collaboration",
     "href": "index.html#for-questions-or-collaboration",
-    "title": "Personal Exposure and Health Data Platform",
+    "title": "Central Entry Point",
     "section": "For questions or collaboration:",
     "text": "For questions or collaboration:\nContact the PEH Data Platform managers PEHDataPlatform@vito.be"
   }
