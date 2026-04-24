@@ -189,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="for-questions-or-collaboration" class="level2">
 <h2 class="anchored" data-anchor-id="for-questions-or-collaboration">For questions or collaboration:</h2>
-<p>Contact the PEH Data Platform managers For questions: <a href="mailto:PEHDataPlatform@vito.be">PEHDataPlatform@vito.be</a></p>
+<p>Contact the PEH Data Platform managers <a href="mailto:PEHDataPlatform@vito.be">PEHDataPlatform@vito.be</a></p>
 
 
 </section>
@@ -283,6 +283,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
